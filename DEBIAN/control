@@ -1,0 +1,7 @@
+Package: vpsecure
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: APSIT
+Description: The Automation Tool for easy setup of virtual servers

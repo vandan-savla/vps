@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+# Install dependencies
+echo "Installing Dependencies..."
+sudo apt-get update 
+sudo apt-get install -y python3
+# Copy your Python script and files to the appropriate location
+sudo cp -r ../../vps/* /usr/local/bin/vps
+# Set permissions and ownership
+sudo chmod +x /usr/local/bin/main.py
+sudo chown root:root /usr/local/bin/main.py
