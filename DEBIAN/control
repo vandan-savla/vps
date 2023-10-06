@@ -1,8 +1,9 @@
-Package: vpsecure
+Package: vps
 Version: 1.0
 Section: utils
-Priority: optional
+Priority: Optional
 Architecture: all
-Maintainer: APSIT
+Maintainer: vds@apsit.com
 Description: The Automation Tool for easy setup of virtual servers
-Postinst: ./postint
+# Postinst: 
+Postinst: ./preinst.sh
