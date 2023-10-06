@@ -6,14 +6,14 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-echo "Installing Dependencies..."
-apt-get update 
-apt-get install -y python3
-echo "Dependencies installed..."
+# echo "Installing Dependencies..."
+# apt-get update 
+# apt-get install -y python3
+# echo "Dependencies installed..."
 
 # Copy your Python script and files to the appropriate location
 echo "copying the files to appropiate location..."
-cp -r ../../vps/* /usr/local/bin/vps
+cp -r /usr/bin/ /usr/local/bin/
 echo "Copied Successfully..."
 # Set permissions and ownership
 

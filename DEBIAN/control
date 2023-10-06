@@ -1,9 +1,9 @@
 Package: vps
 Version: 1.0
 Section: utils
-Priority: Optional
+Priority: less
 Architecture: all
-Maintainer: vds@apsit.com
+Maintainer: Vandan Savla <vds@apsit.com>
 Description: The Automation Tool for easy setup of virtual servers
-# Postinst: 
-Postinst: ./preinst.sh
+Depends: python3 
+
