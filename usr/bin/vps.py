@@ -3,7 +3,7 @@ import argparse
 
 def configure_web_server():
     # Install Apache web server (assuming you're using a Debian-based system)
-    # os.system("sudo apt-get update")
+    os.system("sudo apt-get update")
     os.system("sudo apt-get install apache2 -y")
 
     # Configure a virtual host
