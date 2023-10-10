@@ -1,7 +1,7 @@
 Package: vps
 Version: 1.0
 Section: utils
-Priority: less
+Priority: standard
 Architecture: all
 Maintainer: Vandan Savla <vds@apsit.com>
 Description: The Automation Tool for easy setup of virtual servers
